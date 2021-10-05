@@ -1,0 +1,242 @@
+{
+  "lang": {
+    "vi": "Tiếng Việt",
+    "en": "Tiếng Anh",
+    "language": "Ngôn ngữ"
+  },
+  "toolbar": {},
+  "navBottom": {
+    "next": "Tiếp tục",
+    "back": "Quay lại"
+  },
+  "menu": {
+    "checkin-qr": {
+      "head": "CHECKIN",
+      "sub": "với mã QR"
+    },
+    "checkin-booking-code": {
+      "head": "CHECKIN",
+      "sub": "với mã đặt phòng"
+    },
+    "booking": {
+      "head": "Đặt phòng",
+      "sub":"chưa đặt trước"
+    },
+    "hi": "Xin chào",
+    "intro": "Chọn 1 lựa chọn để tiếp tục"
+  },
+  "scanQR": {
+    "followInstruction": "Quét mã QR theo hướng dẫn bên dưới",
+    "or": "Hoặc",
+    "enterBookingCode": "Tự nhập mã đặt phòng",
+    "instruction": "Quét mã QR để lấy thông tin đặt phòng",
+    "next": "Tiếp tục",
+    "back": "Quay lại"
+  },
+  "roomAvail": {
+    "roomList": "Danh sách phòng trống",
+    "message": "Vui lòng chọn ngày đến và ngày đi để hệ thống hiển thị danh sách phòng trống.",
+    "dateInstruction": "Chọn ngày đến và ngày đi để tìm kiếm phòng trống",
+    "adult": "Người lớn",
+    "child": "Trẻ em",
+    "arrDept": "Ngày đến/Ngày đi",
+    "continue": "Tiếp tục",
+    "arrTime": "Giờ đến",
+    "deptTime": "Giờ đi",
+    "arrDeptTime": "Giờ đến/Giờ đi",
+    "accept": "Chọn phòng",
+    "close": "Đóng",
+    "next": "Tiếp tục",
+    "back": "Quay lại",
+    "floor": "Tầng",
+    "status": {
+      "selected": "Đang chọn",
+      "booked": "Đã đặt",
+      "avail": "Phòng trống"
+    },
+    "selected": {
+      "title": "thông tin đã chọn",
+      "from": "Từ ngày",
+      "to": "đến",
+      "nights": "Số đêm",
+      "num": "Số người",
+      "adult": "người lớn",
+      "child": "trẻ em",
+      "floor": "Tầng",
+      "roomName": "Số phòng"
+    }
+  },
+  "scanIdCard": {
+    "successText": "Nhận diện thành công. Chọn 'Tiếp tục' để đi tới màn hình kế tiếp hoặc chọn 'Sử dụng giấy tờ khác' để thực hiện lại thao tác.",
+    "btnUseOther": "Sử dụng giấy tờ khác",
+    "btnNext": "Tiếp tục",
+    "idCardInstruction": "Quét CMND theo hướng dẫn bên dưới",
+    "passportInstruction": "Quét hộ chiếu theo hướng dẫn bên dưới",
+    "instruction": "Hướng dẫn",
+    "guestInfo": "Thông tin khách",
+    "guestName": "Họ tên",
+    "address": "Địa chỉ",
+    "or": "Hoặc",
+    "scanIdCard": "Chứng minh nhân dân",
+    "scanPassport": "Hộ chiếu",
+    "next": "Tiếp tục",
+    "back": "Quay lại",
+    "birth": "Ngày sinh",
+    "expiry": "Ngày hết hạn",
+    "passportNumber": "Số hộ chiếu",
+    "idCardNumber": "Số CMT",
+    "idCardNewNumber": "Số CCCD",
+    "licenseNumber": "Số giấy phép lái xe",
+    "nationalityCode": "Mã quốc tịch",
+    "sex": "Giới tính"
+  },
+  "flowDetect": {
+    "hi": "Xin chào",
+    "docIntro": "Vui lòng chọn loại giấy tờ dưới đây",
+    "docInstruction": "Chọn một trong những loại giấy tờ dưới đây để máy quét lấy thông tin",
+    "passport": "Hộ chiếu",
+    "license": "Bằng lái",
+    "idCard": "Chứng minh thư (cũ)",
+    "idCardNew": "Căn cước công dân",
+    "frontIntro": "Đặt mặt trước giấy tờ xuống máy quét",
+    "frontInstruction": "Sau khi đặt, quý khách vui lòng chờ một đến hai giây để thiết bị tiến hành quét",
+    "btnUndo": "Quét lại",
+    "btnContinue": "Tiếp tục",
+    "backIntro": "Đặt mặt sau giấy tờ xuống máy quét",
+    "backInstruction": "Sau khi đặt, quý khách vui lòng chờ một đến hai giây để thiết bị tiến hành quét",
+    "faceIntro": "Xin vui lòng xác minh khuôn mặt",
+    "faceInstruction": "Nhìn thẳng vào camera của thiết bị rồi nhấn nút 'Chụp ảnh', sau đó nhấn nút 'Xác minh' và đợi từ 1 - 2 giây để thiết bị nhận diện",
+    "btnChupAnh": "Chụp ảnh",
+    "btnXacMinh": "Xác minh"
+  },
+  "scanFace": {
+    "snapPhoto": "Chụp ảnh",
+    "next": "Tiếp tục",
+    "back": "Quay lại"
+  },
+  "bookingDetails": {
+    "yourBookingDetails": "Chi tiết đặt phòng của bạn",
+    "arrival": "Nhận phòng",
+    "departure": "Trả phòng",
+    "bookedRoom": "Phòng đã chọn",
+    "adultChild": "Người lớn/Trẻ em",
+    "next": "Tiếp tục",
+    "back": "Quay lại"
+  },
+  "bookingCreate": {
+    "reservation": "Đặt phòng",
+    "fullName": "Tên khách",
+    "arrDept": "Ngày đến/Ngày đi",
+    "accept": "Xác nhận thông tin & Tiến hành đặt phòng",
+    "availabilityRoom": "Phòng trống",
+    "specialService": "Dịch vụ đặc biệt",
+    "policy": "Điều khoản",
+    "payment": "Thông tin thanh toán",
+    "adult": "Người lớn",
+    "children": "Trẻ em",
+    "numRoom": "Số phòng",
+    "bookingInformation": "Thông tin đặt phòng",
+    "arrDate": "Ngày đến",
+    "deptDate": "Ngày đi",
+    "numNight": "Số đêm",
+    "room": "Phòng",
+    "building": "Toà",
+    "from": "Từ ngày",
+    "to": "đến",
+    "next": "Tiếp tục",
+    "back": "Quay lại"
+  },
+  "bookingCode": {
+    "enterBookingCode": "Mã đặt phòng",
+    "instruction": "Vui lòng nhập MÃ ĐẶT PHÒNG",
+    "bookingCode": "Mã đặt phòng",
+    "scanQR": "Quét mã QR",
+    "accept": "Tiếp tục",
+    "next": "Tiếp tục",
+    "back": "Quay lại"
+  },
+  "bookingDone": {
+    "suucessText": "Checkin thành công",
+    "serviceText": "Quý khách đã check in thành công. Xin mời dùng thẻ phòng và sử dụng các tiện nghi của khách sạn.",
+    "thankText": "Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi."
+  },
+  "bookingError": {
+    "primaryText": "không thành công",
+    "text": {
+      "1": "Quá trình check in của Quý khách không thành công",
+      "2": "Xin vui lòng ấn nút 'Thử lại' để đăng ký lại thông tin, hãy đảm bảo mọi thông tin đều chính xác."
+    },
+    "thankText": "Xin cảm ơn Quý khách."
+  },
+  "flowBooking": {
+    "availabilityRooms": "Đặt phòng",
+    "scanIdPassport": "Quét CMND/Hộ chiếu",
+    "scanFace": "Face ID",
+    "bookingCreate": "Đặt phòng",
+    "bookingInformation": "Thông tin",
+    "done": "Hoàn thành",
+    "adult": "Adult",
+    "children": "Children",
+    "next": "Tiếp tục",
+    "back": "Quay lại"
+  },
+  "flowCheckin": {
+    "scanQR": "Quét QR",
+    "bookingInformation": "Đặt phòng",
+    "scanIdPassport": "Thông tin",
+    "bookingCode": "Mã đặt phòng",
+    "scanFace": "Face ID",
+    "done": "Hoàn thành",
+    "next": "Tiếp tục",
+    "back": "Quay lại"
+  },
+  "modalError": {
+    "error": "Lỗi",
+    "close": "Đóng"
+  },
+  "welcome": {
+    "intro": "Chào mừng quý khách đến với khách sạn của chúng tôi",
+    "start": "Bắt đầu"
+  },
+  "date-picker": {
+    "weekdays": {
+      "mon": "Hai",
+      "tue": "Ba",
+      "wed": "Bốn",
+      "thu": "Năm",
+      "fri": "Sáu",
+      "sat": "Bảy",
+      "sun": "CN"
+    },
+    "months": {
+      "jan": "Tháng Một",
+      "feb": "Tháng Hai",
+      "mar": "Tháng Ba",
+      "apr": "Tháng Bốn",
+      "may": "Tháng Năm",
+      "jun": "Tháng Sáu",
+      "jul": "Tháng Bảy",
+      "aug": "Tháng Tám",
+      "sep": "Tháng Chín",
+      "oct": "Tháng Mười",
+      "nov": "Tháng Mười Một",
+      "dec": "Tháng Mười Hai"
+    }
+  },
+  "msg": {
+    "errorHandlingRequest": "Có sự cố khi kết nối đến máy chủ",
+    "errorScanFront": "Có lỗi khi xử lý mặt trước của thẻ. Vui lòng thực hiện lại thao tác.",
+    "successScanFace": "Nhận diện thành công. Chọn 'Tiếp Tục' để đi tới màn hình kế tiếp hoặc chọn 'Sử dụng giấy tờ khác' để thực hiện lại thao tác.",
+    "errorScanFace": "Có lỗi khi nhận diện. Vui lòng thực hiện lại thao tác.",
+    "notDetected": "Gương mặt không khớp. Vui lòng thực hiện lại thao tác.",
+    "errorSearchBooking": "Có sự cố xảy ra trong quá trình tìm kiếm",
+    "notFoundBooking": "Hệ thống không tìm thấy mã đặt phòng. Quý khách vui lòng kiểm tra lại mã đặt phòng",
+    "notSelectRoom": "Chưa chọn phòng",
+    "notSelectArrival": "Chưa chọn ngày đến",
+    "notSelectDeparture": "Chưa chọn ngày đi",
+    "notEnterBookingCode": "Vui lòng nhập mã đặt phòng",
+    "notSelectOption": "Hãy chọn một lựa chọn để tiếp tục",
+    "noOutputVideoDevice": "Bạn không có thiết bị xuất video",
+    "notHaveFrontImage": "Hệ thống chưa quét được mặt trước của giấy tờ. Hãy chắc chắn bạn đã đưa mặt trước giấy tờ vào máy quét."
+  }
+}

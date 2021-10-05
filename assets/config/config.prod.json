@@ -1,0 +1,17 @@
+{
+  "hotel": {
+    "client_id": "smarthotel_user1",
+    "client_secret": "password",
+    "grant_type": "client_credentials",
+    "scope": "smart_hotel_api"
+  },
+  "url": {
+    "base": "http://api-sh.qcloud.asia",
+    "service": "http://localhost:8010",
+    "ocr": "http://localhost:8000"
+  },
+  "faceDistance": {
+    "min": "0.2",
+    "max": "1.5"
+  }
+}

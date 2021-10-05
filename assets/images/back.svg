@@ -1,0 +1,25 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 19" width="22" height="19">
+	<title>New Project</title>
+	<defs>
+		<image  width="400" height="400" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQAQMAAAC6caSPAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAqSURBVHic7cExAQAAAMKg9U/tbwagAAAAAAAAAAAAAAAAAAAAAAAAAIA3T7AAATkWl3gAAAAASUVORK5CYII="/>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0.32 0.4L22.15 0.4L22.15 18.73L0.32 18.73L0.32 0.4Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff;stroke: #707070 } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<use id="Background" href="#img1" x="-23" y="-42" />
+	<g id="back-icon">
+		<g id="Group 10">
+			<path id="Path 29" class="shp0" d="M-15.5 9.56C-15.5 -4.54 -15.5 23.67 -15.5 9.56Z" />
+			<g id="Group 9">
+				<g id="Group 8" clip-path="url(#cp1)">
+					<path id="Path 13" class="shp1" d="M21.37 8.57L2.95 8.57L10 1.85C10.37 1.5 10.38 0.92 10.03 0.55C9.68 0.18 9.1 0.16 8.73 0.51L0.67 8.19C0.32 8.54 0.13 9 0.13 9.49C0.13 9.99 0.32 10.45 0.69 10.81L8.73 18.47C8.9 18.64 9.13 18.73 9.36 18.73C9.61 18.73 9.85 18.63 10.03 18.44C10.38 18.07 10.37 17.49 10 17.13L2.92 10.42L21.37 10.42C21.87 10.42 22.29 10 22.29 9.49C22.29 8.98 21.87 8.57 21.37 8.57Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

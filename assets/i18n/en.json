@@ -1,0 +1,242 @@
+{
+  "lang": {
+    "vi": "Vietnamese",
+    "en": "English",
+    "language": "Language"
+  },
+  "toolbar": {},
+  "navBottom": {
+    "next": "Next",
+    "back": "Back"
+  },
+  "menu": {
+    "checkin-qr": {
+      "head": "CHECKIN",
+      "sub": "by QR Code"
+    },
+    "checkin-booking-code": {
+      "head": "CHECKIN",
+      "sub": "by QR Code"
+    },
+    "booking": {
+      "head": "Walk In",
+      "sub": ""
+    },
+    "hi": "Hi",
+    "intro": "Select an option above to continue"
+  },
+  "scanQR": {
+    "followInstruction": "Scan QR code with below instruction",
+    "or": "Or",
+    "enterBookingCode": "manually enter booking code",
+    "instruction": "Please scan QR code",
+    "next": "Next",
+    "back": "Back"
+  },
+  "roomAvail": {
+    "roomList": "Room List",
+    "message": "Please select the arrival date and departure date to display available rooms.",
+    "dateInstruction": "Please select the arrival date and departure date to search available rooms",
+    "adult": "Adult",
+    "child": "Child",
+    "arrDept": "Arrival Date/Departure Date",
+    "arrTime": "Arrival Time",
+    "deptTime": "Departure Time",
+    "arrDeptTime": "Arrival Time/Departure Time",
+    "continue": "Next",
+    "accept": "Accept",
+    "next": "Next",
+    "back": "Back",
+    "floor": "Floor",
+    "status": {
+      "selected": "Selected",
+      "booked": "Booked",
+      "avail": "Avail Room"
+    },
+    "selected": {
+      "title": "Selected Information",
+      "from": "From",
+      "to": "to",
+      "nights": "Num night",
+      "num": "Quantity",
+      "adult": "Adult",
+      "child": "Children",
+      "floor": "Floor",
+      "roomName": "Room"
+    }
+  },
+  "scanIdCard": {
+    "successText": "Successfully detected. Tap 'Continue' to go to the next step, or tap 'Other Document' to redo the step.",
+    "btnUseOther": "Other Document",
+    "btnNext": "Next",
+    "idCardInstruction": "Scan ID Card with below instruction",
+    "passportInstruction": "Scan Passport with below instruction",
+    "instruction": "Instruction",
+    "guestInfo": "Guest Information",
+    "guestName": "Full Name",
+    "address": "Address",
+    "or": "Or",
+    "scanIdCard": "Identity Card",
+    "scanPassport": "Passport",
+    "next": "Next",
+    "back": "Back",
+    "birth": "Birthday",
+    "expiry": "Expiry",
+    "passportNumber": "Passport Number",
+    "idCardNumber": "Id Card Number",
+    "idCardNewNumber": "Id Card New Number",
+    "licenseNumber": "License Number",
+    "nationalityCode": "Nationality Code",
+    "sex": "Sex"
+  },
+  "flowDetect": {
+    "hi": "Hi",
+    "docIntro": "Please choose one of document types below",
+    "docInstruction": "Choose one of the documents below for the scanner get information",
+    "passport": "Passport",
+    "license": "License",
+    "idCard": "ID Card (old)",
+    "idCardNew": "ID Card",
+    "frontIntro": "Place the front of the document down on the scanner",
+    "frontInstruction": "After that, please wait one to two seconds for the device to scan",
+    "btnUndo": "Undo",
+    "btnContinue": "Next",
+    "backIntro": "Place the back of the document on the scanner",
+    "backInstruction": "After that, please wait one to two seconds for the device to scan",
+    "faceIntro": "Please verify your face",
+    "faceInstruction": "Look directly at the device's camera and then press the 'Take a photo' button, then press the 'Verify' button and wait 1-2 seconds for the device to recognize",
+    "btnChupAnh": "Snap photo",
+    "btnXacMinh": "Verify"
+  },
+  "scanFace": {
+    "snapPhoto": "Snap photo",
+    "next": "Next",
+    "back": "Back"
+  },
+  "bookingDetails": {
+    "yourBookingDetails": "Booking information",
+    "arrival": "Arrival Date",
+    "departure": "Departure Date",
+    "bookedRoom": "Booked Room",
+    "adultChild": "Adult/Children",
+    "next": "Next",
+    "back": "Back"
+  },
+  "bookingCreate": {
+    "reservation": "Reservation",
+    "fullName": "Guest name",
+    "arrDept": "Arrival Date/Departure Date",
+    "accept": "Confirm Information & Book",
+    "availabilityRoom": "Availability Rooms",
+    "specialService": "Special Service",
+    "policy": "Policy",
+    "payment": "Payment",
+    "adult": "Adult",
+    "children": "Children",
+    "numRoom": "Num Room",
+    "close": "Close",
+    "bookingInformation": "Booking Information",
+    "arrDate": "Arrival",
+    "deptDate": "Departure",
+    "numNight": "Nights",
+    "room": "Room",
+    "building": "Building",
+    "from": "From",
+    "to": "To",
+    "next": "Next",
+    "back": "Back"
+  },
+  "bookingCode": {
+    "enterBookingCode": "Booking Code",
+    "instruction": "Please enter BOOKING CODE",
+    "bookingCode": "Booking Code",
+    "scanQR": "Scan QR Code",
+    "accept": "Continue",
+    "next": "Next",
+    "back": "Back"
+  },
+  "bookingDone": {
+    "suucessText": "Successfully checked in",
+    "serviceText": "You have successfully checked in. Please use the room card and use the hotel facilities.",
+    "thankText": "Thank you for using our service."
+  },
+  "bookingError": {
+    "primaryText": "Unsuccessful",
+    "text": {
+      "1": "Guest check-in process failed",
+      "2": "Please press the 'Retry' button to re-register the information, make sure all information is correct."
+    },
+    "thankText": "Thank you for using our service."
+  },
+  "flowBooking": {
+    "availabilityRooms": "Availability",
+    "scanIdPassport": "Scan Identity Card/Passport",
+    "scanFace": "Face ID",
+    "bookingCreate": "Reservation",
+    "bookingInformation": "Information",
+    "done": "Done",
+    "adult": "Adult",
+    "children": "Children",
+    "next": "Next",
+    "back": "Back"
+  },
+  "flowCheckin": {
+    "scanQR": "Scan QR code",
+    "scanIdPassport": "Information",
+    "scanFace": "Face ID",
+    "bookingCode": "Enter booking code",
+    "bookingInformation": "Reservation",
+    "done": "Done",
+    "next": "Next",
+    "back": "Back"
+  },
+  "modalError": {
+    "error": "Error",
+    "close": "Close"
+  },
+  "welcome": {
+    "intro": "Welcome to our Hotel",
+    "start": "Start"
+  },
+  "date-picker": {
+    "weekdays": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    }
+  },
+  "msg": {
+    "errorHandlingRequest": "Error when handling request",
+    "errorScanFront": "There was an error processing the front of the card. Please perform the operation again.",
+    "successScanFace": "Successful identification. Select 'Continue' to go to the next screen or select 'Use another document' to redo the operation.",
+    "errorScanFace": "Error in detection. Please perform the operation again.",
+    "notDetected": "Face mismatch. Please perform the operation again.",
+    "errorSearchBooking": "Something went wrong during the search",
+    "notFoundBooking": "The system did not find the reservation code. Please check your reservation number again",
+    "notSelectRoom": "Haven't selected a room yet",
+    "notSelectArrival": "Haven't selected arriaval date",
+    "notSelectDeparture": "Haven't selected departure date",
+    "notEnterBookingCode": "Please enter the reservation code",
+    "notSelectOption": "Please select an option to continue",
+    "noOutputVideoDevice": "You have no output video device",
+    "notHaveFrontImage": "The system has not yet scanned the front of the document. Make sure you placed the front of the document into the scanner."
+  }
+}
