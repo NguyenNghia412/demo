@@ -5256,13 +5256,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RoomTypeInfoComponent", function() { return RoomTypeInfoComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
-/* harmony import */ var _shared_components_button_button_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../shared/components/button/button.component */ "VkHG");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _shared_components_button_button_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../shared/components/button/button.component */ "VkHG");
 
 
 
+
+function RoomTypeInfoComponent_div_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 8);
+} }
+const _c0 = function (a0) { return [a0]; };
 class RoomTypeInfoComponent {
     constructor(activeModal) {
         this.activeModal = activeModal;
+        this.loadingImage = true;
     }
     ngOnInit() {
     }
@@ -5270,9 +5277,17 @@ class RoomTypeInfoComponent {
         const file = this.roomType.roomTypeCode.toUpperCase();
         return `assets/images/${file}.jpg`;
     }
+    onLoad() {
+        this.loadingImage = false;
+        console.log('hihihihihihihihihihihihihihihihih');
+    }
+    onError($event) {
+        console.log($event);
+        $event.src = 'assets/images/default-room-type.jpg';
+    }
 }
 RoomTypeInfoComponent.ɵfac = function RoomTypeInfoComponent_Factory(t) { return new (t || RoomTypeInfoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbActiveModal"])); };
-RoomTypeInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RoomTypeInfoComponent, selectors: [["app-room-type-info"]], inputs: { roomType: "roomType" }, decls: 9, vars: 2, consts: [[1, "modal-header"], ["id", "modal-basic-title", 1, "modal-title", "text-primary"], [1, "modal-body"], [1, "card"], [1, "card-img-top", 3, "src"], [1, "modal-footer", "d-flex", "flex-row", "justify-content-center"], ["className", "text-primary border-primary bg-white w-100 text-uppercase font-weight-bold", 1, "w-80", 3, "click"]], template: function RoomTypeInfoComponent_Template(rf, ctx) { if (rf & 1) {
+RoomTypeInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RoomTypeInfoComponent, selectors: [["app-room-type-info"]], inputs: { roomType: "roomType" }, decls: 10, vars: 6, consts: [[1, "modal-header"], ["id", "modal-basic-title", 1, "modal-title", "text-primary"], [1, "modal-body"], [1, "card"], ["style", "height: 300px;", "class", "w-100 bg-light", 4, "ngIf"], ["onerror", "this.src = 'assets/images/default-room-type.jpg'", 1, "card-img-top", 3, "classList", "src", "load"], [1, "modal-footer", "d-flex", "flex-row", "justify-content-center"], ["className", "text-primary border-primary bg-white w-100 text-uppercase font-weight-bold", 1, "w-80", 3, "click"], [1, "w-100", "bg-light", 2, "height", "300px"]], template: function RoomTypeInfoComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -5280,21 +5295,26 @@ RoomTypeInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, RoomTypeInfoComponent_div_5_Template, 1, 0, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("load", function RoomTypeInfoComponent_Template_img_load_6_listener() { return ctx.onLoad(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "app-button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function RoomTypeInfoComponent_Template_app_button_click_7_listener() { return ctx.activeModal.close(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " \u0110\u00F3ng ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "app-button", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function RoomTypeInfoComponent_Template_app_button_click_8_listener() { return ctx.activeModal.close(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " \u0110\u00F3ng ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.roomType == null ? null : ctx.roomType.roomTypeName, " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.roomTypeImage(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    } }, directives: [_shared_components_button_button_component__WEBPACK_IMPORTED_MODULE_2__["ButtonComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyb29tLXR5cGUtaW5mby5jb21wb25lbnQuc2NzcyJ9 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.loadingImage);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("classList", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](4, _c0, ctx.loadingImage ? "d-none" : "d-block"))("src", ctx.roomTypeImage(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _shared_components_button_button_component__WEBPACK_IMPORTED_MODULE_3__["ButtonComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyb29tLXR5cGUtaW5mby5jb21wb25lbnQuc2NzcyJ9 */"] });
 
 
 /***/ }),
