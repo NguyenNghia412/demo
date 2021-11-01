@@ -63,6 +63,12 @@
       "child": "Children",
       "floor": "Floor",
       "roomName": "Room"
+    },
+    "step": {
+      "1": "Step 1: Please select a date",
+      "2": "Step 2: Choose the number of guests",
+      "3": "Step 3: Select Room Types",
+      "4": "Step 4: Select number of rooms & floors"
     }
   },
   "scanIdCard": {
@@ -120,7 +126,11 @@
     "bookedRoom": "Booked Room",
     "adultChild": "Adult/Children",
     "next": "Next",
-    "back": "Back"
+    "back": "Back",
+    "roomRate": "Room Rate",
+    "taxRate": "Tax",
+    "serviceCharge": "Service",
+    "totalRate": "Total Rate"
   },
   "bookingCreate": {
     "reservation": "Reservation",
@@ -144,7 +154,11 @@
     "from": "From",
     "to": "To",
     "next": "Next",
-    "back": "Back"
+    "back": "Back",
+    "roomRate": "Room Rate",
+    "taxRate": "Tax",
+    "serviceCharge": "Service",
+    "totalRate": "Total Rate"
   },
   "bookingCode": {
     "enterBookingCode": "Booking Code",
@@ -237,6 +251,10 @@
     "notEnterBookingCode": "Please enter the reservation code",
     "notSelectOption": "Please select an option to continue",
     "noOutputVideoDevice": "You have no output video device",
-    "notHaveFrontImage": "The system has not yet scanned the front of the document. Make sure you placed the front of the document into the scanner."
+    "notHaveFrontImage": "The system has not yet scanned the front of the document. Make sure you placed the front of the document into the scanner.",
+    "errorGetTotalRate": "There was an error retrieving payment information",
+    "errorCheckin": "There was an error while performing check-in",
+    "plsScan": "Please scan your document",
+    "noFaceImageToDetect": "You have not taken a photo to identify"
   }
 }

@@ -7,7 +7,7 @@
   },
   "url": {
     "base": "https://api-sh.qcloud.asia",
-    "service": "http://192.168.31.251:8010",
+    "service": "http://localhost:8030",
     "ocr": "http://192.168.31.251:8000"
   },
   "faceDistance": {

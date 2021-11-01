@@ -64,6 +64,12 @@
       "child": "trẻ em",
       "floor": "Tầng",
       "roomName": "Số phòng"
+    },
+    "step": {
+      "1": "Bước 1: Vui lòng chọn ngày",
+      "2": "Bước 2: Chọn số lượng khách",
+      "3": "Bước 3: Chọn hạng phòng",
+      "4": "Bước 4: Chọn số phòng & tầng"
     }
   },
   "scanIdCard": {
@@ -121,7 +127,11 @@
     "bookedRoom": "Phòng đã chọn",
     "adultChild": "Người lớn/Trẻ em",
     "next": "Tiếp tục",
-    "back": "Quay lại"
+    "back": "Quay lại",
+    "roomRate": "Giá phòng",
+    "taxRate": "Thuế khách sạn",
+    "serviceCharge": "Phí dịch vụ",
+    "totalRate": "Tổng giá tiền"
   },
   "bookingCreate": {
     "reservation": "Đặt phòng",
@@ -144,7 +154,11 @@
     "from": "Từ ngày",
     "to": "đến",
     "next": "Tiếp tục",
-    "back": "Quay lại"
+    "back": "Quay lại",
+    "roomRate": "Giá phòng",
+    "taxRate": "Thuế khách sạn",
+    "serviceCharge": "Phí dịch vụ",
+    "totalRate": "Tổng giá tiền"
   },
   "bookingCode": {
     "enterBookingCode": "Mã đặt phòng",
@@ -237,6 +251,10 @@
     "notEnterBookingCode": "Vui lòng nhập mã đặt phòng",
     "notSelectOption": "Hãy chọn một lựa chọn để tiếp tục",
     "noOutputVideoDevice": "Bạn không có thiết bị xuất video",
-    "notHaveFrontImage": "Hệ thống chưa quét được mặt trước của giấy tờ. Hãy chắc chắn bạn đã đưa mặt trước giấy tờ vào máy quét."
+    "notHaveFrontImage": "Hệ thống chưa quét được mặt trước của giấy tờ. Hãy chắc chắn bạn đã đưa mặt trước giấy tờ vào máy quét.",
+    "errorGetTotalRate": "Có lỗi khi lấy thông tin thanh toán",
+    "errorCheckin": "Có lỗi khi thực hiện check in",
+    "plsScan": "Vui lòng thực hiện thao tác quét giấy tờ tuỳ thân",
+    "noFaceImageToDetect": "Bạn chưa chụp ảnh để nhận diện"
   }
 }
