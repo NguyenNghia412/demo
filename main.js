@@ -5082,9 +5082,9 @@ function BookingDoneComponent_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](10, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](15, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](13, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "fa-icon", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -5104,10 +5104,10 @@ function BookingDoneComponent_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](10, 10, "bookingError.text.2"), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](13, 12, "bookingError.thankText"), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r1.errorMessage, " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](15, 12, "bookingError.thankText"), " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx_r1.faExclamation);
 } }
 class BookingDoneComponent {
@@ -5316,15 +5316,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_app_shared_constant_event__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/shared/constant/event */ "b3fv");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ "qCKp");
-/* harmony import */ var _services_booking_booking_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/booking/booking.service */ "RnX0");
-/* harmony import */ var src_app_shared_services_hub_hub_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/shared/services/hub/hub.service */ "HItX");
-/* harmony import */ var src_app_shared_services_lock_card_lock_card_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/app/shared/services/lock-card/lock-card.service */ "7NDd");
-/* harmony import */ var src_app_shared_services_dispenser_dispenser_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/app/shared/services/dispenser/dispenser.service */ "8EDh");
-/* harmony import */ var src_app_shared_services_hub_walkin_hub_walkin_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! src/app/shared/services/hub-walkin/hub-walkin.service */ "NQ6j");
-/* harmony import */ var src_app_shared_services_utility_utility_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! src/app/shared/services/utility/utility.service */ "xb2s");
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @ngx-translate/core */ "sYmb");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/router */ "tyNb");
-/* harmony import */ var _shared_components_button_button_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../../shared/components/button/button.component */ "VkHG");
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/environments/environment */ "AytR");
+/* harmony import */ var _services_booking_booking_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../services/booking/booking.service */ "RnX0");
+/* harmony import */ var src_app_shared_services_hub_hub_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/app/shared/services/hub/hub.service */ "HItX");
+/* harmony import */ var src_app_shared_services_lock_card_lock_card_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/app/shared/services/lock-card/lock-card.service */ "7NDd");
+/* harmony import */ var src_app_shared_services_dispenser_dispenser_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! src/app/shared/services/dispenser/dispenser.service */ "8EDh");
+/* harmony import */ var src_app_shared_services_hub_walkin_hub_walkin_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! src/app/shared/services/hub-walkin/hub-walkin.service */ "NQ6j");
+/* harmony import */ var src_app_shared_services_utility_utility_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! src/app/shared/services/utility/utility.service */ "xb2s");
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ngx-translate/core */ "sYmb");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _shared_components_button_button_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../../shared/components/button/button.component */ "VkHG");
+
 
 
 
@@ -5416,6 +5418,34 @@ class BookingCreateComponent {
     createBooking() {
         console.log('BOOKING-CREATE: ', this.bookingData);
         this.hubService.setLoading(true);
+        if (!src_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].production) {
+            this.bookingService
+                .createBooking(this.bookingData)
+                .subscribe((res) => {
+                if (res.code === 0) {
+                    this.hubWalkin.isDoneFlow = true;
+                    this.nextStep.emit({ isDone: true });
+                    this.router.navigate([`/${src_app_shared_constant_pages__WEBPACK_IMPORTED_MODULE_2__["PAGES"].walkin}/${src_app_shared_constant_pages__WEBPACK_IMPORTED_MODULE_2__["STEPS"].step4}`]);
+                }
+                else {
+                    // this.nextStep.emit({ isDone: false, msg: res.message });
+                    this.hubWalkin.errorMessageCreateBooking = res.message;
+                    this.hubWalkin.isDoneFlow = false;
+                    this.router.navigate([`/${src_app_shared_constant_pages__WEBPACK_IMPORTED_MODULE_2__["PAGES"].walkin}/${src_app_shared_constant_pages__WEBPACK_IMPORTED_MODULE_2__["STEPS"].step4}`]);
+                    // this.hubService.error(res.message);
+                }
+            }, ({ code, message }) => {
+                // this.nextStep.emit({ isDone: false, msg: message });
+                this.hubWalkin.errorMessageCreateBooking = message;
+                this.hubWalkin.isDoneFlow = false;
+                this.router.navigate([`/${src_app_shared_constant_pages__WEBPACK_IMPORTED_MODULE_2__["PAGES"].walkin}/${src_app_shared_constant_pages__WEBPACK_IMPORTED_MODULE_2__["STEPS"].step4}`]);
+                // this.hubService.error(message);
+            })
+                .add(() => {
+                this.hubService.setLoading(false);
+            });
+            return;
+        }
         this.bookingService
             .createBooking(this.bookingData)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])((res) => {
@@ -5495,11 +5525,13 @@ class BookingCreateComponent {
         return `${end.diff(start, 'd')}`;
     }
     displayTotal() {
-        const total = this.totalRateData.rate + this.totalRateData.tax1 + this.totalRateData.tax2;
+        const total = this.totalRateData.rate +
+            this.totalRateData.tax1 +
+            this.totalRateData.tax2;
         return total || 0;
     }
 }
-BookingCreateComponent.ɵfac = function BookingCreateComponent_Factory(t) { return new (t || BookingCreateComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_booking_booking_service__WEBPACK_IMPORTED_MODULE_6__["BookingService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_hub_hub_service__WEBPACK_IMPORTED_MODULE_7__["HubService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_lock_card_lock_card_service__WEBPACK_IMPORTED_MODULE_8__["LockCardService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_dispenser_dispenser_service__WEBPACK_IMPORTED_MODULE_9__["DispenserService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_hub_walkin_hub_walkin_service__WEBPACK_IMPORTED_MODULE_10__["HubWalkinService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_utility_utility_service__WEBPACK_IMPORTED_MODULE_11__["UtilityService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__["TranslateService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_13__["Router"])); };
+BookingCreateComponent.ɵfac = function BookingCreateComponent_Factory(t) { return new (t || BookingCreateComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_booking_booking_service__WEBPACK_IMPORTED_MODULE_7__["BookingService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_hub_hub_service__WEBPACK_IMPORTED_MODULE_8__["HubService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_lock_card_lock_card_service__WEBPACK_IMPORTED_MODULE_9__["LockCardService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_dispenser_dispenser_service__WEBPACK_IMPORTED_MODULE_10__["DispenserService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_hub_walkin_hub_walkin_service__WEBPACK_IMPORTED_MODULE_11__["HubWalkinService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_shared_services_utility_utility_service__WEBPACK_IMPORTED_MODULE_12__["UtilityService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslateService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_14__["Router"])); };
 BookingCreateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BookingCreateComponent, selectors: [["app-booking-create"]], outputs: { nextStep: "nextStep", backStep: "backStep" }, decls: 97, vars: 49, consts: [[1, "d-flex", "flex-column", "wrapper", "h-100"], [1, "flex-grow-1"], [1, "text-grey-dark", "my-3"], [1, "card", "card-box-shadow", "my-3"], [1, "card-body"], [1, "row"], [1, "col-3"], [1, "col-9"], [1, "text-primary", "text-uppercase", "font-weight-500"], [1, "dropdown-divider"], ["st", ""], [1, "text-primary", "font-weight-500"], [1, "row", "mt-2"], [1, "col"], [1, "d-flex", "flex-row", "justify-content-between"], [1, "ks-text-align-right", "text-primary", "font-weight-500"], [1, "wrapper", "w-100", "d-flex", "flex-row", "justify-content-center", "mb-3"], ["className", "btn-primary w-100 text-uppercase", 1, "w-80", 3, "click"]], template: function BookingCreateComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
@@ -5704,7 +5736,7 @@ BookingCreateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx.utilService.formatMoney(ctx.displayTotal()), " VND");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](96, 47, "flowDetect.btnContinue"), " ");
-    } }, directives: [_shared_components_button_button_component__WEBPACK_IMPORTED_MODULE_14__["ButtonComponent"]], pipes: [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_12__["TranslatePipe"]], styles: ["[_nghost-%COMP%] {\n  height: 100%;\n}\n\nmat-icon[_ngcontent-%COMP%] {\n  width: unset;\n}\n\nmat-checkbox[_ngcontent-%COMP%]     .mat-checkbox-inner-container {\n  width: 30px;\n  height: 30px;\n}\n\n.block-title[_ngcontent-%COMP%] {\n  margin-top: 50px;\n}\n\n.form-check-label[_ngcontent-%COMP%]::before, .form-check-label[_ngcontent-%COMP%]::after {\n  top: 0.8rem;\n  width: 1.25rem;\n  height: 1.25rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXGJvb2tpbmctY3JlYXRlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0UsWUFBQTtBQUFGOztBQUdBO0VBQ0UsWUFBQTtBQUFGOztBQUdBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUFBRjs7QUFHQTtFQUNFLGdCQUFBO0FBQUY7O0FBR0E7O0VBRUksV0FBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0FBQUoiLCJmaWxlIjoiYm9va2luZy1jcmVhdGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuOmhvc3Qge1xyXG4gIGhlaWdodDogMTAwJTtcclxufVxyXG5cclxubWF0LWljb24ge1xyXG4gIHdpZHRoOiB1bnNldDtcclxufVxyXG5cclxubWF0LWNoZWNrYm94IDo6bmctZGVlcCAubWF0LWNoZWNrYm94LWlubmVyLWNvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDMwcHg7XHJcbiAgaGVpZ2h0OiAzMHB4O1xyXG59XHJcblxyXG4uYmxvY2stdGl0bGUge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbn1cclxuXHJcbi5mb3JtLWNoZWNrLWxhYmVsOjpiZWZvcmUsIFxyXG4uZm9ybS1jaGVjay1sYWJlbDo6YWZ0ZXIge1xyXG4gICAgdG9wOiAuOHJlbTtcclxuICAgIHdpZHRoOiAxLjI1cmVtO1xyXG4gICAgaGVpZ2h0OiAxLjI1cmVtO1xyXG59Il19 */"] });
+    } }, directives: [_shared_components_button_button_component__WEBPACK_IMPORTED_MODULE_15__["ButtonComponent"]], pipes: [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__["TranslatePipe"]], styles: ["[_nghost-%COMP%] {\n  height: 100%;\n}\n\nmat-icon[_ngcontent-%COMP%] {\n  width: unset;\n}\n\nmat-checkbox[_ngcontent-%COMP%]     .mat-checkbox-inner-container {\n  width: 30px;\n  height: 30px;\n}\n\n.block-title[_ngcontent-%COMP%] {\n  margin-top: 50px;\n}\n\n.form-check-label[_ngcontent-%COMP%]::before, .form-check-label[_ngcontent-%COMP%]::after {\n  top: 0.8rem;\n  width: 1.25rem;\n  height: 1.25rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXC4uXFwuLlxcLi5cXGJvb2tpbmctY3JlYXRlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0UsWUFBQTtBQUFGOztBQUdBO0VBQ0UsWUFBQTtBQUFGOztBQUdBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUFBRjs7QUFHQTtFQUNFLGdCQUFBO0FBQUY7O0FBR0E7O0VBRUksV0FBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0FBQUoiLCJmaWxlIjoiYm9va2luZy1jcmVhdGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuOmhvc3Qge1xyXG4gIGhlaWdodDogMTAwJTtcclxufVxyXG5cclxubWF0LWljb24ge1xyXG4gIHdpZHRoOiB1bnNldDtcclxufVxyXG5cclxubWF0LWNoZWNrYm94IDo6bmctZGVlcCAubWF0LWNoZWNrYm94LWlubmVyLWNvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDMwcHg7XHJcbiAgaGVpZ2h0OiAzMHB4O1xyXG59XHJcblxyXG4uYmxvY2stdGl0bGUge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbn1cclxuXHJcbi5mb3JtLWNoZWNrLWxhYmVsOjpiZWZvcmUsIFxyXG4uZm9ybS1jaGVjay1sYWJlbDo6YWZ0ZXIge1xyXG4gICAgdG9wOiAuOHJlbTtcclxuICAgIHdpZHRoOiAxLjI1cmVtO1xyXG4gICAgaGVpZ2h0OiAxLjI1cmVtO1xyXG59Il19 */"] });
 
 
 /***/ }),
