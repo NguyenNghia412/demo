@@ -7,11 +7,77 @@
   },
   "url": {
     "base": "https://api-sh.qcloud.asia",
-    "service": "http://localhost:8030",
-    "ocr": "http://192.168.31.251:8000"
+    "service": "http://localhost:8010",
+    "ocr": "http://192.168.31.251:8000",
+	"ocrlog": "http://ocrlog.stecom.vn:8888"
   },
   "faceDistance": {
     "min": "0.2",
-    "max": "1.5"
+    "max": "1"
+  },
+  "roomTypes": {
+    "DL1": {
+      "description": "Spacious, bright measuring 35 m2 – 42m2 for two bedrooms. The best choice for business man in short trip.",
+      "images": [
+        "assets/images/DL1/1.jpg",
+        "assets/images/DL1/2.jpg",
+        "assets/images/DL1/3.jpg",
+        "assets/images/DL1/4.jpg"
+      ]
+    },
+    "DL2": {
+      "description": "Spacious, bright measuring 35 m2 – 42m2 for two bedrooms. The best choice for business man in short trip.",
+      "images": [
+        "assets/images/DL1/1.jpg",
+        "assets/images/DL1/2.jpg",
+        "assets/images/DL1/3.jpg",
+        "assets/images/DL1/4.jpg"
+      ]
+    },
+    "DLT": {
+      "description": "Spacious, bright measuring 35 m2 – 42m2 for two bedrooms. The best choice for business man in short trip.",
+      "images": [
+        "assets/images/DL1/1.jpg",
+        "assets/images/DL1/2.jpg",
+        "assets/images/DL1/3.jpg",
+        "assets/images/DL1/4.jpg"
+      ]
+    },
+    "EX1": {
+      "description": "The type room measuring 55m2, view city. The best choice for couple in the holiday.",
+      "images": [
+        "assets/images/DL1/1.jpg",
+        "assets/images/DL1/2.jpg",
+        "assets/images/DL1/3.jpg",
+        "assets/images/DL1/4.jpg"
+      ]
+    },
+    "EX2": {
+      "description": "The type room measuring 55m2, view city. The best choice for couple in the holiday.",
+      "images": [
+        "assets/images/DL1/1.jpg",
+        "assets/images/DL1/2.jpg",
+        "assets/images/DL1/3.jpg",
+        "assets/images/DL1/4.jpg"
+      ]
+    },
+    "S1": {
+      "description": "Private bancony provide panonama view of Bac Ninh city, two bedroom, the best choice for family holiday.",
+      "images": [
+        "assets/images/DL1/1.jpg",
+        "assets/images/DL1/2.jpg",
+        "assets/images/DL1/3.jpg",
+        "assets/images/DL1/4.jpg"
+      ]
+    },
+    "S2": {
+      "description": "Private bancony provide panonama view of Bac Ninh city, two bedroom, the best choice for family holiday.",
+      "images": [
+        "assets/images/DL1/1.jpg",
+        "assets/images/DL1/2.jpg",
+        "assets/images/DL1/3.jpg",
+        "assets/images/DL1/4.jpg"
+      ]
+    }
   }
 }

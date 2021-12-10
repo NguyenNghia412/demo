@@ -20,7 +20,7 @@
     },
     "booking": {
       "head": "Đặt phòng",
-      "sub":"chưa đặt trước"
+      "sub": "chưa đặt trước"
     },
     "hi": "Xin chào",
     "intro": "Chọn 1 lựa chọn để tiếp tục"
@@ -52,7 +52,8 @@
     "status": {
       "selected": "Đang chọn",
       "booked": "Đã đặt",
-      "avail": "Phòng trống"
+      "avail": "Phòng trống",
+	  "notReady": "Chưa sẵn sàng"
     },
     "selected": {
       "title": "thông tin đã chọn",
@@ -92,7 +93,8 @@
     "passportNumber": "Số hộ chiếu",
     "idCardNumber": "Số CMT",
     "idCardNewNumber": "Số CCCD",
-    "licenseNumber": "Số giấy phép lái xe",
+    "licenseNumber": "Số bằng lái",
+    "number": "Số giấy tờ",
     "nationalityCode": "Mã quốc tịch",
     "sex": "Giới tính"
   },
@@ -106,12 +108,13 @@
     "idCardNew": "Căn cước công dân",
     "frontIntro": "Đặt mặt trước giấy tờ xuống máy quét",
     "frontInstruction": "Sau khi đặt, quý khách vui lòng chờ một đến hai giây để thiết bị tiến hành quét",
-    "btnUndo": "Quét lại",
+    "btnUndo": "Chụp lại",
     "btnContinue": "Tiếp tục",
     "backIntro": "Đặt mặt sau giấy tờ xuống máy quét",
     "backInstruction": "Sau khi đặt, quý khách vui lòng chờ một đến hai giây để thiết bị tiến hành quét",
     "faceIntro": "Xin vui lòng xác minh khuôn mặt",
     "faceInstruction": "Nhìn thẳng vào camera của thiết bị rồi nhấn nút 'Chụp ảnh', sau đó nhấn nút 'Xác minh' và đợi từ 1 - 2 giây để thiết bị nhận diện",
+    "plsResume": "Xin vui lòng nhấn 'Chụp Lại' để thực hiện lại thao tác chụp ảnh",
     "btnChupAnh": "Chụp ảnh",
     "btnXacMinh": "Xác minh"
   },
@@ -170,16 +173,26 @@
     "back": "Quay lại"
   },
   "bookingDone": {
-    "suucessText": "Checkin thành công",
-    "serviceText": "Quý khách đã check in thành công. Xin mời dùng thẻ phòng và sử dụng các tiện nghi của khách sạn.",
-    "thankText": "Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi."
+    "successText": {
+      "checkin": "Checkin thành công",
+      "book": "Đặt phòng thành công"
+    },
+    "serviceText": {
+      "checkin": "Quý khách đã checkin thành công. Xin mời sử dụng các tiện nghi của khách sạn.",
+      "book": "Quý khách đã đặt phòng thành công"
+    },
+    "thankText": "Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi!"
   },
   "bookingError": {
     "primaryText": "không thành công",
     "text": {
-      "1": "Quá trình check in của Quý khách không thành công",
+      "1": {
+        "checkin": "Quá trình checkin của Quý khách không thành công.",
+        "book": "Quá trình đặt phòng của Quý khách không thành công."
+      },
       "2": "Xin vui lòng ấn nút 'Thử lại' để đăng ký lại thông tin, hãy đảm bảo mọi thông tin đều chính xác."
     },
+    "goToReception": "Nếu thiết bị không cấp thẻ cho quý khách, vui lòng ấn nút 'Lấy lại thẻ' hoặc gọi lễ tân để được trợ giúp.",
     "thankText": "Xin cảm ơn Quý khách."
   },
   "flowBooking": {
@@ -206,7 +219,8 @@
   },
   "modalError": {
     "error": "Lỗi",
-    "close": "Đóng"
+    "close": "Đóng",
+    "notice": "Thông báo"
   },
   "welcome": {
     "intro": "Chào mừng quý khách đến với khách sạn của chúng tôi",
@@ -237,6 +251,9 @@
       "dec": "Tháng Mười Hai"
     }
   },
+  "roomTypeInfo": {
+    "close": "Đóng"
+  },
   "msg": {
     "errorHandlingRequest": "Có sự cố khi kết nối đến máy chủ",
     "errorScanFront": "Có lỗi khi xử lý mặt trước của thẻ. Vui lòng thực hiện lại thao tác.",
@@ -255,6 +272,12 @@
     "errorGetTotalRate": "Có lỗi khi lấy thông tin thanh toán",
     "errorCheckin": "Có lỗi khi thực hiện check in",
     "plsScan": "Vui lòng thực hiện thao tác quét giấy tờ tuỳ thân",
-    "noFaceImageToDetect": "Bạn chưa chụp ảnh để nhận diện"
+    "noFaceImageToDetect": "Bạn chưa chụp ảnh để nhận diện",
+    "plsSelectBothFromAndToDate": "Vui lòng chọn cả ngày đến và ngày đi để hệ thống hiển thị danh sách phòng trống",
+    "noSuitableRooms": "Không có phòng trống phù hợp điều kiện tìm kiếm",
+	"errorCheckinValidate": "Hiện tại không thể checkin vào phòng này.",
+	"errorGuestNoValidate": "Số người lớn hoặc trẻ em không hợp lệ.",
+	"errorCreateBooking": "Có sự cố xảy ra khi đặt phòng.",
+	"errorRoomNotReady": "Phòng này hiện chưa sẵn sàng. Vui lòng liên hệ với lễ tân để được giúp đỡ."
   }
 }

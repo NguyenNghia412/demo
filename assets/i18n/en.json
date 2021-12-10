@@ -16,7 +16,7 @@
     },
     "checkin-booking-code": {
       "head": "CHECKIN",
-      "sub": "by QR Code"
+      "sub": "by Booking Code"
     },
     "booking": {
       "head": "Walk In",
@@ -51,7 +51,8 @@
     "status": {
       "selected": "Selected",
       "booked": "Booked",
-      "avail": "Avail Room"
+      "avail": "Avail Room",
+	  "notReady": "Not Ready"
     },
     "selected": {
       "title": "Selected Information",
@@ -92,6 +93,7 @@
     "idCardNumber": "Id Card Number",
     "idCardNewNumber": "Id Card New Number",
     "licenseNumber": "License Number",
+    "number": "Number",
     "nationalityCode": "Nationality Code",
     "sex": "Sex"
   },
@@ -111,6 +113,7 @@
     "backInstruction": "After that, please wait one to two seconds for the device to scan",
     "faceIntro": "Please verify your face",
     "faceInstruction": "Look directly at the device's camera and then press the 'Take a photo' button, then press the 'Verify' button and wait 1-2 seconds for the device to recognize",
+    "plsResume": "Please press 'Undo' to take the photo again",
     "btnChupAnh": "Snap photo",
     "btnXacMinh": "Verify"
   },
@@ -170,16 +173,26 @@
     "back": "Back"
   },
   "bookingDone": {
-    "suucessText": "Successfully checked in",
-    "serviceText": "You have successfully checked in. Please use the room card and use the hotel facilities.",
+    "successText": {
+      "checkin": "Successfully checked in",
+      "book": "Successfully booked"
+    },
+    "serviceText": {
+      "checkin": "You have successfully checked in. Please use the room card and use the hotel facilities.",
+      "book": "You have successfully booked. Please use the room card and use the hotel facilities."
+    },
     "thankText": "Thank you for using our service."
   },
   "bookingError": {
     "primaryText": "Unsuccessful",
     "text": {
-      "1": "Guest check-in process failed",
+      "1": {
+        "checkin": "Guest check-in process failed",
+        "book": "Booking process failed"
+      },
       "2": "Please press the 'Retry' button to re-register the information, make sure all information is correct."
     },
+    "goToReception": "Vui lòng liên hệ lễ tân để lấy thẻ phòng.",
     "thankText": "Thank you for using our service."
   },
   "flowBooking": {
@@ -206,7 +219,8 @@
   },
   "modalError": {
     "error": "Error",
-    "close": "Close"
+    "close": "Close",
+    "notice": "Notice"
   },
   "welcome": {
     "intro": "Welcome to our Hotel",
@@ -237,6 +251,9 @@
       "dec": "Dec"
     }
   },
+  "roomTypeInfo": {
+    "close": "Close"
+  },
   "msg": {
     "errorHandlingRequest": "Error when handling request",
     "errorScanFront": "There was an error processing the front of the card. Please perform the operation again.",
@@ -255,6 +272,12 @@
     "errorGetTotalRate": "There was an error retrieving payment information",
     "errorCheckin": "There was an error while performing check-in",
     "plsScan": "Please scan your document",
-    "noFaceImageToDetect": "You have not taken a photo to identify"
+    "noFaceImageToDetect": "You have not taken a photo to identify",
+    "plsSelectBothFromAndToDate": "Please select both arrival and departure dates to display available rooms",
+    "noSuitableRooms": "There are no available rooms that match your search criteria",
+	"errorCheckinValidate": "Not possible to check-in to this room",
+	"errorGuestNoValidate": "Invalid number of adults or children.",
+	"errorCreateBooking": "Something went wrong when booking a room.",
+	"errorRoomNotReady": "This room is not ready yet. Please contact reception for assistance."
   }
 }
